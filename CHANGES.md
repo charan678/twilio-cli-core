@@ -1,3 +1,38 @@
+## [6.0.0](https://github.com/charan678/twilio-cli-core/compare/5.32.1...6.0.0) (2022-02-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Storing profiles in config file instead of keytar.
+
+### Library - Features
+
+* Add flag no header for list and fetch commands ([#182](https://github.com/charan678/twilio-cli-core/issues/182)) ([22f6ea9](https://github.com/charan678/twilio-cli-core/commit/22f6ea9262e3874a2b9d46cb97e4df14648c0f78))
+* Release feature branch ([#188](https://github.com/charan678/twilio-cli-core/issues/188)) ([4380dac](https://github.com/charan678/twilio-cli-core/commit/4380dac7725511f10d0bc8b5d9925bafafc69253))
+
+
+### Library - Fixes
+
+* added support for default output prop in operation ([#192](https://github.com/charan678/twilio-cli-core/issues/192)) ([8ae4ba5](https://github.com/charan678/twilio-cli-core/commit/8ae4ba5a418521d5877c7fc753ed08cee2a43f22))
+* Cleaning travis code ([#193](https://github.com/charan678/twilio-cli-core/issues/193)) ([ecb2ae5](https://github.com/charan678/twilio-cli-core/commit/ecb2ae5e61774c4aca577517f5acf1932f192be8))
+* Update semantic-release via npm bin ([#187](https://github.com/charan678/twilio-cli-core/issues/187)) ([b35a2ac](https://github.com/charan678/twilio-cli-core/commit/b35a2acbd6032f7cd71ecf01d7f18da190138d97))
+* update vulnerable dependencies packages ([#180](https://github.com/charan678/twilio-cli-core/issues/180)) ([0e5c492](https://github.com/charan678/twilio-cli-core/commit/0e5c492961991be0eb7d8f1a9113a3afacc7f316))
+
+
+### Library - Chores
+
+* Add Npm Audit workflow ([#196](https://github.com/charan678/twilio-cli-core/issues/196)) ([5dd1887](https://github.com/charan678/twilio-cli-core/commit/5dd1887f03468c902691eac17546a02c59fefbcb))
+* **release:** set `package.json` to 6.0.1 [skip ci] ([0a013aa](https://github.com/charan678/twilio-cli-core/commit/0a013aaf671f59f5ce52e132e61800fea418d045)), closes [#190](https://github.com/charan678/twilio-cli-core/issues/190)
+* bump dependency axios ([#190](https://github.com/charan678/twilio-cli-core/issues/190)) ([3836cbf](https://github.com/charan678/twilio-cli-core/commit/3836cbf5e14d12b134dceb6772b00c6db1a6109d))
+* **release:** set `package.json` to 6.0.0 [skip ci] ([03609c4](https://github.com/charan678/twilio-cli-core/commit/03609c4f282b3d52ef084b34152e6813def12e53)), closes [#189](https://github.com/charan678/twilio-cli-core/issues/189) [#188](https://github.com/charan678/twilio-cli-core/issues/188)
+* github workflow update ([#183](https://github.com/charan678/twilio-cli-core/issues/183)) ([a96ebc3](https://github.com/charan678/twilio-cli-core/commit/a96ebc35249ce6dc8de424a5d98667a347a450f4))
+* Update LICENSE ([#189](https://github.com/charan678/twilio-cli-core/issues/189)) ([5b6a3a5](https://github.com/charan678/twilio-cli-core/commit/5b6a3a527251ef595cda317bae12b6de79bcc500))
+* **release:** set `package.json` to 5.33.0 [skip ci] ([a49d861](https://github.com/charan678/twilio-cli-core/commit/a49d8618163a6116807f95ad387ede9cf2180d7b)), closes [#182](https://github.com/charan678/twilio-cli-core/issues/182) [#183](https://github.com/charan678/twilio-cli-core/issues/183) [#186](https://github.com/charan678/twilio-cli-core/issues/186) [#185](https://github.com/charan678/twilio-cli-core/issues/185) [#184](https://github.com/charan678/twilio-cli-core/issues/184) [#187](https://github.com/charan678/twilio-cli-core/issues/187)
+* Remove audit run with posttest script ([#186](https://github.com/charan678/twilio-cli-core/issues/186)) ([ea5c744](https://github.com/charan678/twilio-cli-core/commit/ea5c744b6dc00b9aeceb85b45ddee7856bd057fd))
+* revert updated oclif major dependencies ([#185](https://github.com/charan678/twilio-cli-core/issues/185)) ([aa74e0e](https://github.com/charan678/twilio-cli-core/commit/aa74e0e8899fd244995ede6624baf65ccd973ebd))
+* update version of vulnerable dependencies ([#184](https://github.com/charan678/twilio-cli-core/issues/184)) ([b8de6f6](https://github.com/charan678/twilio-cli-core/commit/b8de6f611e53b232edbad1865e26e726f442478d))
+* **release:** set `package.json` to 5.32.2 [skip ci] ([16ee681](https://github.com/charan678/twilio-cli-core/commit/16ee68126df2725383769bd69349cf45ece82b27)), closes [#180](https://github.com/charan678/twilio-cli-core/issues/180)
+
 ---------------------------
 **Api**
 - Add `stream` resource
