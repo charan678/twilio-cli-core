@@ -1,4 +1,4 @@
-const { Command, flags: oclifFlags } = require('@oclif/command');
+const { Command, Flags: oclifFlags } = require('@oclif/core');
 const { CLIError } = require('@oclif/errors');
 
 const pkg = require('../../package.json');
@@ -32,7 +32,7 @@ class BaseCommand extends Command {
   }
 
   async run() {
-    const { args, flags } = this.parse(this.constructor);
+    const { args, flags } = await this.parse(this.constructor);
     this.args = args;
     this.flags = flags;
     await this.loadConfig();
